@@ -1,0 +1,11 @@
+{
+   "manifest_version": 3,
+   "name": "Copy-Paste Extension",
+   "version": "1.0",
+   "description": "Allows users to copy content and paste it into the extension with an option to add new tabs.",
+   "permissions": ["activeTab", "clipboardRead", "clipboardWrite", "storage"],
+   "action": {
+     "default_popup": "popup.html",
+     "default_icon": "icon.png"
+   }
+ }
